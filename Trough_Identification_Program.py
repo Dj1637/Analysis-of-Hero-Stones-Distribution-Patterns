@@ -6,7 +6,7 @@ from sklearn.cluster import AgglomerativeClustering
 import rasterio
 
 # Loading hero-stone data
-df = pd.read_csv('Final_List_All_Hero_Stones_2.csv')
+df = pd.read_csv('Shorter_List_Hero_Stones.csv')
 place_date = list(zip(df['Name'], df['Date']))
 coordinates = list(zip(df['Latitude'], df['Longitude']))
 
